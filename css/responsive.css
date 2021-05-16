@@ -1,0 +1,31 @@
+@media screen And (max-width: 1000px) {
+  nav {
+    flex-direction: column;
+  }
+  .logo {
+    margin-top: 10px;
+  }
+  nav .search {
+    margin-bottom: 10px;
+    display: flex;
+    width: 100%;
+  }
+  nav input {
+    width: auto;
+    flex: 1;
+    margin-right: 10px;
+  }
+
+  .container .card-detail-container {
+    flex-wrap: wrap;
+  }
+  .card-details img {
+    width: 40vw;
+    background-size: cover;
+    margin: auto;
+    display: block;
+  }
+  .container .card-details {
+    width: 100%;
+  }
+}

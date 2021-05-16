@@ -1,0 +1,27 @@
+.center-middle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lato-font-family {
+  font-family: "Lato", sans-serif;
+}
+
+.header-btn {
+  height: 35px;
+  padding: 5px 20px;
+  background-color: white;
+  border: 2px solid white;
+  cursor: pointer;
+}
+.header-btn:hover {
+  border-width: 3px;
+}
+.text-center {
+  text-align: center;
+}
+
+.price {
+  color: green;
+}
